@@ -1,0 +1,26 @@
+{
+  "name": "bookmarklets",
+  "version": "1.0.0",
+  "author": "Noah Sugarman <noahsug@gmail.com>",
+  "description": "Untappd bookmarklets",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:noahsug/untappd-bookmarklets.git"
+  },
+  "scripts": {
+    "prettier": "prettier --write bookmarklets/**",
+    "build": "babel --no-babelrc --minified --no-comments bookmarklets --out-dir bin",
+    "add-data": "node addData $(pbpaste)"
+  },
+  "keywords": [
+    "untappd",
+    "bookmarklets",
+    "bookmarks"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "prettier": "^2.1.2"
+  }
+}
