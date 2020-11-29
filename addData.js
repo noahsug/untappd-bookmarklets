@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const OUTPUT_FILE = 'data.json';
+const { OUTPUT_FILE } = require('./constants');
 
 function getExistingData() {
   let data;

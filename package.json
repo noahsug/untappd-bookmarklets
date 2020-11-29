@@ -9,8 +9,9 @@
   },
   "scripts": {
     "prettier": "prettier --write bookmarklets/**",
-    "build": "babel --no-babelrc --minified --no-comments bookmarklets --out-dir bin",
-    "add-data": "node addData $(pbpaste)"
+    "minify": "babel --no-babelrc --minified --no-comments bookmarklets --out-dir bin",
+    "build": "yarn minify && node insertViewData",
+    "add-data": "node addData $(pbpaste) && yarn build && cat bin/view.js | pbcopy"
   },
   "keywords": [
     "untappd",

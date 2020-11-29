@@ -10,7 +10,7 @@ javascript: (() => {
   const selectors = {
     item: '.beer-item',
     name: '.beer-details .name a',
-    rating: '.rating-container .num',
+    rating: '.num',
   };
 
   const items = document.querySelectorAll(selectors.item);
