@@ -18,11 +18,19 @@ const newData = JSON.parse(input);
 
 const existingData = getExistingData();
 
-const newNames = new Set(newData.map(({ name }) => name));
-const updatedData = existingData.filter(({ name }) => !newNames.has(name))
+const newLinks = new Set(newData.map(({ link }) => link));
+const updatedData = existingData.filter(({ link }) => !newLinks.has(link))
 updatedData.push(...newData);
 
 const jsonOutput = JSON.stringify(updatedData, null, 2);
 fs.writeFileSync(OUTPUT_FILE, jsonOutput);
 
-console.log('added', newData.length, 'beers');
+const numUpdated = existingData.length + newData.length - updatedData.length;
+if (numUpdated) {
+  console.log('updated', numUpdated, 'beer(s)');
+}
+
+const numAdded = newData.length - numUpdated;
+if (numAdded) {
+  console.log('added', numAdded, 'beer(s)');
+}

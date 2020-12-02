@@ -19,7 +19,7 @@ javascript: (() => {
     const ratingNode = item.querySelector(selectors.rating);
     return {
       link: nameNode.href,
-      name: nameNode.textContent.toLowerCase(),
+      name: nameNode.textContent.replace('`', `'`),
       // "(4.37)" -> "4.37"
       rating: ratingNode.textContent.match(/\d.\d+/)[0],
     };

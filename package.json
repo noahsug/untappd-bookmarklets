@@ -2,6 +2,7 @@
   "name": "bookmarklets",
   "version": "1.0.0",
   "author": "Noah Sugarman <noahsug@gmail.com>",
+  "license": "MIT",
   "description": "Untappd bookmarklets",
   "repository": {
     "type": "git",
@@ -11,7 +12,7 @@
     "prettier": "prettier --write bookmarklets/**",
     "minify": "babel --no-babelrc --minified --no-comments bookmarklets --out-dir bin",
     "build": "yarn minify && node insertViewData",
-    "add-data": "node addData $(pbpaste) && yarn build && cat bin/view.js | pbcopy"
+    "add-data": "node addData $(pbpaste) && yarn build > /dev/null && cat bin/view.js | pbcopy"
   },
   "keywords": [
     "untappd",
