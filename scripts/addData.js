@@ -19,8 +19,8 @@ const newData = JSON.parse(input);
 const existingData = getExistingData();
 
 const newLinks = new Set(newData.map(({ link }) => link));
-const updatedData = existingData.filter(({ link }) => !newLinks.has(link))
-updatedData.push(...newData);
+const existingDataWithoutDups = existingData.filter(({ link }) => !newLinks.has(link))
+const updatedData = newData.concat(existingDataWithoutDups);
 
 const jsonOutput = JSON.stringify(updatedData, null, 2);
 fs.writeFileSync(OUTPUT_FILE, jsonOutput);
@@ -32,5 +32,5 @@ if (numUpdated) {
 
 const numAdded = newData.length - numUpdated;
 if (numAdded) {
-  console.log('added', numAdded, 'beer(s)');
+  console.log('added', numAdded, 'new beer(s)');
 }

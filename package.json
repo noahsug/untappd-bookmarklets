@@ -11,8 +11,8 @@
   "scripts": {
     "prettier": "prettier --write bookmarklets/**",
     "minify": "babel --no-babelrc --minified --no-comments bookmarklets --out-dir bin",
-    "build": "yarn minify && node insertViewData",
-    "add-data": "node addData $(pbpaste) && yarn build > /dev/null && cat bin/view.js | pbcopy"
+    "build": "yarn minify && node scripts/insertViewData",
+    "add-data": "node scripts/addData $(pbpaste) && yarn build > /dev/null && cat bin/view.js | pbcopy"
   },
   "keywords": [
     "untappd",
