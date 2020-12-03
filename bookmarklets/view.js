@@ -28,18 +28,18 @@ javascript: (() => {
   }
 
   // "Triple Shot (Batch 1000)" -> { name: "triple shot", hints: ['batch', '1000'] }
-  function processBeerName(nameAndHints) {
-    const paren = nameAndHints.indexOf('(');
+  function processBeerName(fullName) {
+    const paren = fullName.indexOf('(');
     if (paren === -1) {
-      return { hints: [], name: processText(nameAndHints) };
+      return { hints: [], name: processText(fullName), fullName };
     }
 
-    const nameText = nameAndHints.slice(0, paren - 1);
-    const hintText = nameAndHints.slice(paren + 1, -1);
+    const nameText = fullName.slice(0, paren - 1);
+    const hintText = fullName.slice(paren + 1, -1);
 
     const name = processText(nameText);
     const hints = processText(hintText).split(' ');
-    return { name, hints };
+    return { name, hints, fullName };
   }
 
   function addToTrie(trie, words, value, i = 0) {
@@ -58,10 +58,10 @@ javascript: (() => {
   function buildTrie(beers) {
     const trie = {};
     beers.forEach((beer) => {
-      const { name, hints } = processBeerName(beer.name);
+      const { name, fullName, hints } = processBeerName(beer.name);
       const words = name.split(' ');
 
-      addToTrie(trie, words, { name, rating: beer.rating, hints });
+      addToTrie(trie, words, { ...beer, fullName, name, hints });
     });
 
     return trie;
@@ -98,30 +98,28 @@ javascript: (() => {
     const text = processText(rawText);
     const words = text.split(' ');
 
-    const bestMatch = {
+    let bestMatch = {
       hintsMatching: -1,
-      rating: 0,
     };
 
     for (let i = 0; i < words.length; i++) {
       const beers = getMatchingBeersFromWord(trie, words, i);
 
       for (let beerIndex = 0; beerIndex < beers.length; beerIndex++) {
-        const { rating, hints } = beers[beerIndex];
+        const beer = beers[beerIndex];
 
-        if (hints.length === 0) return { rating };
+        if (beer.hints.length === 0) return beer;
 
-        const matchingHints = hints.filter((hint) => words.includes(hint));
-        if (matchingHints.length === hints.length) return { rating };
+        const matchingHints = beer.hints.filter((hint) => words.includes(hint));
+        if (matchingHints.length === beer.hints.length) return beer;
 
         if (matchingHints.length > bestMatch.hintsMatching) {
-          bestMatch.hintsMatching = matchingHints.length;
-          bestMatch.rating = rating;
+          bestMatch = { ...beer, hintsMatching: matchingHints.length };
         }
       }
     }
 
-    return bestMatch.rating === 0 ? null : bestMatch;
+    return bestMatch.hintsMatching === -1 ? null : bestMatch;
   }
 
   function run(beers) {
@@ -130,26 +128,29 @@ javascript: (() => {
     // console.log(JSON.stringify(trie, null, 2));
 
     const textNodes = getTextNodes(document.body);
-    // const textNodes = [{ data: 'joe nope' }];
+    // const textNodes = [{ data: 'joe nope!' }];
 
+    console.log('Beers found:');
     textNodes.forEach((node) => {
       const text = node.data.trim();
       if (!text) return;
 
-      const match = getMatchingBeer(trie, text);
+      const beer = getMatchingBeer(trie, text);
 
-      if (match) {
+      if (beer) {
         // trim trailing whitespace
         node.data = node.data.replace(/\s+$/, '');
 
-        node.data += ` (${match.rating}${match.hintsMatching != null ? '?' : ''})`;
+        console.log(beer.fullName, `(${beer.rating})`);
+
+        node.data += ` (${beer.rating}${beer.hintsMatching != null ? '?' : ''})`;
       }
     });
   }
 
   run(JSON.parse(`$JSON_DATA$`));
   // run([
-  //   { name: 'joe ', rating: 4.3 },
+  //   { name: 'Joe nope (bob)', rating: 4.3 },
   //   { name: 'j', rating: 4.6 },
   // ]);
 })();

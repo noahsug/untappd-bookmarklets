@@ -10,7 +10,7 @@
   },
   "scripts": {
     "prettier": "prettier --write bookmarklets/**",
-    "minify": "babel --no-babelrc --minified --no-comments bookmarklets --out-dir bin",
+    "minify": "babel --minified --no-comments bookmarklets --out-dir bin",
     "build": "yarn minify && node scripts/insertViewData",
     "add-data": "node scripts/addData $(pbpaste) && yarn build > /dev/null && cat bin/view.js | pbcopy"
   },
@@ -19,10 +19,11 @@
     "bookmarklets",
     "bookmarks"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
     "prettier": "^2.1.2"
   }
 }
