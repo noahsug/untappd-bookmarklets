@@ -23,7 +23,7 @@
   "devDependencies": {
     "@babel/cli": "^7.12.8",
     "@babel/core": "^7.12.9",
-    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "rollup": "^2.34.0"
   }
 }

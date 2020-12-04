@@ -61,7 +61,7 @@ javascript: (() => {
       const { name, fullName, hints } = processBeerName(beer.name);
       const words = name.split(' ');
 
-      addToTrie(trie, words, { ...beer, fullName, name, hints });
+      addToTrie(trie, words, Object.assign(beer, { fullName, name, hints }));
     });
 
     return trie;
@@ -114,7 +114,7 @@ javascript: (() => {
         if (matchingHints.length === beer.hints.length) return beer;
 
         if (matchingHints.length > bestMatch.hintsMatching) {
-          bestMatch = { ...beer, hintsMatching: matchingHints.length };
+          bestMatch = Object.assign(beer, { hintsMatching: matchingHints.length });
         }
       }
     }

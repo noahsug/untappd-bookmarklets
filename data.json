@@ -1,5 +1,380 @@
 [
   {
+    "link": "https://untappd.com/b/fox-farm-brewery-avalonia-red/3784630",
+    "name": "Avalonia: Red",
+    "rating": "4.54"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-copestone-2020/4060197",
+    "name": "Copestone (2020)",
+    "rating": "4.51"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-avalonia-black/3784632",
+    "name": "Avalonia: Black",
+    "rating": "4.5"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-votive-no-2/3977745",
+    "name": "Votive (No. 2)",
+    "rating": "4.49"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-burrow/3916792",
+    "name": "Burrow",
+    "rating": "4.49"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-amour-fou/3670585",
+    "name": "Amour Fou",
+    "rating": "4.47"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-avalonia-raspberry/3101992",
+    "name": "Avalonia: Raspberry",
+    "rating": "4.46"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-witch-meadow-2020/4018475",
+    "name": "Witch Meadow (2020)",
+    "rating": "4.45"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-cerrado/3874417",
+    "name": "Cerrado",
+    "rating": "4.45"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-persimina/3410331",
+    "name": "Persimina",
+    "rating": "4.44"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-witch-meadow-black-2019/3500203",
+    "name": "Witch Meadow Black (2019)",
+    "rating": "4.43"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-votive-no-1/3163190",
+    "name": "Votive (No. 1)",
+    "rating": "4.42"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-witch-meadow-black-2020/4018477",
+    "name": "Witch Meadow Black (2020)",
+    "rating": "4.41"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-susurrus/3832575",
+    "name": "Susurrus",
+    "rating": "4.41"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-barrel-aged-freckled-fields/3474046",
+    "name": "Barrel-Aged Freckled Fields",
+    "rating": "4.4"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-avalonia-cherry/3541555",
+    "name": "Avalonia: Cherry",
+    "rating": "4.39"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-avalonia-apricot/3275614",
+    "name": "Avalonia: Apricot",
+    "rating": "4.39"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-bluster/3775557",
+    "name": "Bluster",
+    "rating": "4.37"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-copestone-2019/3560917",
+    "name": "Copestone (2019)",
+    "rating": "4.37"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-viridescence/3241937",
+    "name": "Viridescence",
+    "rating": "4.36"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-double-burst/2533343",
+    "name": "Double Burst",
+    "rating": "4.36"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-avalonia-plum/3020993",
+    "name": "Avalonia: Plum",
+    "rating": "4.35"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-dark-hills/2849588",
+    "name": "Dark Hills",
+    "rating": "4.34"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-varonna/3079521",
+    "name": "Våronna",
+    "rating": "4.32"
+  },
+  {
+    "link": "https://untappd.com/b/fox-farm-brewery-leeway/3895973",
+    "name": "Leeway",
+    "rating": "4.32"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-cloud-9/3736707",
+    "name": "Cloud 9",
+    "rating": "4.51"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-ferrous-rwanda/2438991",
+    "name": "Ferrous: Rwanda",
+    "rating": "4.39"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-double-cloud/2586210",
+    "name": "Double Cloud",
+    "rating": "4.38"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-festivus/3002490",
+    "name": "Blender Festivus",
+    "rating": "4.37"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-ferrous-yirgacheffe/2523507",
+    "name": "Ferrous: Yirgacheffe",
+    "rating": "4.36"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-black-ras/3405607",
+    "name": "Blender: Black-Ras",
+    "rating": "4.35"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-kiliki/3009447",
+    "name": "Blender: Kiliki",
+    "rating": "4.35"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-ruby/3730738",
+    "name": "Blender: Ruby",
+    "rating": "4.35"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-raspberry/2125153",
+    "name": "Blender: Raspberry",
+    "rating": "4.33"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-double-wavelength/3484212",
+    "name": "Double Wavelength",
+    "rating": "4.32"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-rook-hazelnut/3687135",
+    "name": "Rook: Hazelnut",
+    "rating": "4.32"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-brunch/3044411",
+    "name": "Blender: Brunch",
+    "rating": "4.32"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-black-and-blue/2754292",
+    "name": "Blender: Black & Blue",
+    "rating": "4.31"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-nectar-connection/1271577",
+    "name": "Nectar Connection",
+    "rating": "4.3"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-spectrum/2147408",
+    "name": "Spectrum",
+    "rating": "4.3"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-boysenberry/2475936",
+    "name": "Blender: Boysenberry",
+    "rating": "4.29"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-pamangua/2675925",
+    "name": "Blender: Pamangua",
+    "rating": "4.29"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-headband/2054378",
+    "name": "Headband",
+    "rating": "4.28"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-ferrous-ethiopian-sidama/2973869",
+    "name": "Ferrous: Ethiopian Sidama",
+    "rating": "4.28"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-guava-passionfruit/2282544",
+    "name": "Blender: Guava Passionfruit",
+    "rating": "4.28"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-pamanta/3484202",
+    "name": "Blender: Pamanta",
+    "rating": "4.28"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-stereogram/3347290",
+    "name": "Stereogram",
+    "rating": "4.28"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-rook-sumatra-kerinci/3687146",
+    "name": "Rook: Sumatra Kerinci",
+    "rating": "4.27"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-rook-coconut/3687134",
+    "name": "Rook: Coconut",
+    "rating": "4.27"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-rosales/3758476",
+    "name": "Rosales",
+    "rating": "4.27"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-double-fragment/2963319",
+    "name": "Double Fragment",
+    "rating": "4.27"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-blueberry/2503971",
+    "name": "Blender: Blueberry",
+    "rating": "4.26"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-wavelength/2225724",
+    "name": "Wavelength",
+    "rating": "4.25"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-tango/3943727",
+    "name": "Blender: Tango",
+    "rating": "4.25"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-ferrous-mesela-harrar/2917792",
+    "name": "Ferrous: Mesela-Harrar",
+    "rating": "4.25"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-rook-bourbon-barrel/3687149",
+    "name": "Rook: Bourbon Barrel",
+    "rating": "4.25"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-expression-20/3791437",
+    "name": "Expression: 20",
+    "rating": "4.25"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-ferrous-j-rene-cold-brew-vietnamese-cinnamon-and-cocoa-nibs/3466265",
+    "name": "Ferrous: J Rene Cold Brew, Vietnamese Cinnamon & Cocoa Nibs",
+    "rating": "4.25"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-blackberry/2191863",
+    "name": "Blender: Blackberry",
+    "rating": "4.24"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-expression-two/2387189",
+    "name": "Expression: Two",
+    "rating": "4.24"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-hopiary-tangleweed/2973870",
+    "name": "Hopiary: Tangleweed",
+    "rating": "4.24"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-cardigan/2698687",
+    "name": "Cardigan",
+    "rating": "4.23"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-expression-five/2494370",
+    "name": "Expression: Five",
+    "rating": "4.23"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-expression-three/2417925",
+    "name": "Expression: Three",
+    "rating": "4.22"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-laurel/2323003",
+    "name": "Laurel",
+    "rating": "4.22"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-cherry-pineapple/3299304",
+    "name": "Blender: Cherry Pineapple",
+    "rating": "4.22"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-reef/3701985",
+    "name": "Reef",
+    "rating": "4.22"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-crimson/3974248",
+    "name": "Blender: Crimson",
+    "rating": "4.21"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-apricot/2334439",
+    "name": "Blender: Apricot",
+    "rating": "4.21"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-expression-six/2543089",
+    "name": "Expression: Six",
+    "rating": "4.21"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-cloudscape/1119444",
+    "name": "Cloudscape",
+    "rating": "4.21"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-hopiary/1083213",
+    "name": "Hopiary",
+    "rating": "4.2"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-blender-rollup/3517452",
+    "name": "Blender: Rollup",
+    "rating": "4.2"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-expression-21/3901896",
+    "name": "Expression 21",
+    "rating": "4.2"
+  },
+  {
+    "link": "https://untappd.com/b/new-park-brewing-ferrous-columbian/3090656",
+    "name": "Ferrous: Colombian",
+    "rating": "4.19"
+  },
+  {
     "link": "https://untappd.com/b/tree-house-brewing-company-king-jjjuliusss/1616182",
     "name": "King JJJuliusss",
     "rating": "4.75"
