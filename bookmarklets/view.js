@@ -125,15 +125,14 @@ javascript: (() => {
   function run(beers) {
     const trie = buildTrie(beers);
 
-    // console.log(JSON.stringify(trie, null, 2));
-
     const textNodes = getTextNodes(document.body);
-    // const textNodes = [{ data: 'joe nope!' }];
 
     console.log('Beers found:');
     textNodes.forEach((node) => {
       const text = node.data.trim();
       if (!text) return;
+
+      console.log(text);
 
       const beer = getMatchingBeer(trie, text);
 
@@ -149,8 +148,4 @@ javascript: (() => {
   }
 
   run(JSON.parse(`$JSON_DATA$`));
-  // run([
-  //   { name: 'Joe nope (bob)', rating: 4.3 },
-  //   { name: 'j', rating: 4.6 },
-  // ]);
 })();

@@ -1,5 +1,380 @@
 [
   {
+    "link": "https://untappd.com/b/aslin-beer-company-pittsburgh/3636465",
+    "name": "Pittsburgh",
+    "rating": "4.66"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-el-rio/3116733",
+    "name": "El Rio",
+    "rating": "4.65"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-beaumont/2237421",
+    "name": "Beaumont",
+    "rating": "4.65"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-sperryville/3206661",
+    "name": "Sperryville",
+    "rating": "4.65"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-harrisonburg/3301792",
+    "name": "Harrisonburg",
+    "rating": "4.64"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-castle-hill/3210388",
+    "name": "Castle Hill",
+    "rating": "4.63"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-luling/3204613",
+    "name": "Luling",
+    "rating": "4.61"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-leapling/3691156",
+    "name": "Leapling",
+    "rating": "4.61"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-buku-dua/3230314",
+    "name": "Buku Dùa",
+    "rating": "4.6"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-bull-of-the-woods/3976052",
+    "name": "Bull of the Woods",
+    "rating": "4.57"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-buku-saigon/3229266",
+    "name": "Buku Saigon",
+    "rating": "4.56"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-alexandria/3347953",
+    "name": "Alexandria",
+    "rating": "4.52"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-west-chester/2237403",
+    "name": "West Chester",
+    "rating": "4.51"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-chantilly/3750870",
+    "name": "Chantilly",
+    "rating": "4.51"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-mattapoisett/3301796",
+    "name": "Mattapoisett",
+    "rating": "4.5"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-buku-ca-va-ni/3229273",
+    "name": "Buku Cây Va Ni",
+    "rating": "4.48"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-greenville/3750866",
+    "name": "Greenville",
+    "rating": "4.47"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-san-diego/3350927",
+    "name": "San Diego",
+    "rating": "4.46"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-glamping/2702889",
+    "name": "Glamping",
+    "rating": "4.46"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-boston/3186053",
+    "name": "Boston",
+    "rating": "4.46"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-buku-ca-phe/2803287",
+    "name": "Buku Cà Phê",
+    "rating": "4.45"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-bale/2548221",
+    "name": "Bale",
+    "rating": "4.45"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-orlando/3750861",
+    "name": "Orlando",
+    "rating": "4.45"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-patch-cut/3976081",
+    "name": "Patch Cut",
+    "rating": "4.45"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-belly-shirts/2746819",
+    "name": "Belly Shirts",
+    "rating": "4.43"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-buku-maureen/2781621",
+    "name": "Buku Maureen",
+    "rating": "4.43"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-sticky-yips/3530140",
+    "name": "Sticky Yips",
+    "rating": "4.43"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-broadlands/3791193",
+    "name": "Broadlands",
+    "rating": "4.42"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-genius-kitchen/2633579",
+    "name": "Genius Kitchen",
+    "rating": "4.42"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-crumb-snatchers/3571058",
+    "name": "Crumb Snatchers",
+    "rating": "4.42"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-dreams/2834533",
+    "name": "Dreams",
+    "rating": "4.42"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-silk-4-year-anniversary-stout/3432736",
+    "name": "Silk (4 Year Anniversary Stout)",
+    "rating": "4.41"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-juan-de-bolas/2586867",
+    "name": "Juan De Bolas",
+    "rating": "4.41"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-corolla/3452323",
+    "name": "Corolla",
+    "rating": "4.41"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-pisghetti-western/2498353",
+    "name": "Pisghetti Western",
+    "rating": "4.41"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-master-of-karate-double-dry-hopped/2323126",
+    "name": "Master of Karate (Double Dry Hopped)",
+    "rating": "4.4"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-cocoa-mostra/3031864",
+    "name": "Cocoa Mostra",
+    "rating": "4.39"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-caledonia/3173096",
+    "name": "Caledonia",
+    "rating": "4.38"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-mind-the-hop-w-peach-and-vanilla/1596979",
+    "name": "Mind the Hop w/ Peach & Vanilla",
+    "rating": "4.38"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-stripes/2823945",
+    "name": "Stripes",
+    "rating": "4.38"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-mom-jeans/3265086",
+    "name": "Mom Jeans",
+    "rating": "4.37"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-live-edge/3976071",
+    "name": "Live Edge",
+    "rating": "4.37"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-rasp/3976101",
+    "name": "Rasp",
+    "rating": "4.37"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-jenerik/3162159",
+    "name": "JENERIK",
+    "rating": "4.36"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-herndon/2225667",
+    "name": "Herndon",
+    "rating": "4.36"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-gran-chieti/3301793",
+    "name": "Gran Chieti",
+    "rating": "4.36"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-sloth-loves-chunk/2873903",
+    "name": "Sloth Loves Chunk",
+    "rating": "4.36"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-buku-mocha/2121024",
+    "name": "Buku Mocha",
+    "rating": "4.34"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-arlington/3258973",
+    "name": "Arlington",
+    "rating": "4.34"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-moonshield/2691611",
+    "name": "Moonshield",
+    "rating": "4.34"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-black-friday-orange/2955917",
+    "name": "Black Friday Orange",
+    "rating": "4.34"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-tiny-thugs/3571037",
+    "name": "Tiny Thugs",
+    "rating": "4.34"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-kokomo/2450972",
+    "name": "Kokomo",
+    "rating": "4.34"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-padrino/2591433",
+    "name": "Padrino",
+    "rating": "4.34"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-ashburn/3636485",
+    "name": "Ashburn",
+    "rating": "4.34"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-2-year-anniversary-cotton-stout/2294586",
+    "name": "2 Year Anniversary Cotton Stout",
+    "rating": "4.34"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-pew-pew-pew-double-dry-hopped/2390843",
+    "name": "Pew Pew Pew (Double Dry Hopped)",
+    "rating": "4.33"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-triple-orange-starfish/2360073",
+    "name": "Triple Orange Starfish",
+    "rating": "4.33"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-san-saba/2668111",
+    "name": "San Saba",
+    "rating": "4.32"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-kerf/3976073",
+    "name": "Kerf",
+    "rating": "4.32"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-sprechen-sie-deutsch/2417619",
+    "name": "Sprechen Sie Deutsch?",
+    "rating": "4.32"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-anaheim/3636479",
+    "name": "Anaheim",
+    "rating": "4.32"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-philadelphia/3167777",
+    "name": "Philadelphia",
+    "rating": "4.32"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-reston/3349717",
+    "name": "Reston",
+    "rating": "4.31"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-lowered-expectations/3222344",
+    "name": "Lowered Expectations",
+    "rating": "4.31"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-black-friday-yellow/2955936",
+    "name": "Black Friday Yellow",
+    "rating": "4.31"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-double-orange-starfish/1611103",
+    "name": "Double Orange Starfish",
+    "rating": "4.31"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-colchester/3082741",
+    "name": "Colchester",
+    "rating": "4.31"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-watertown/3750876",
+    "name": "Watertown",
+    "rating": "4.3"
+  },
+  {
+    "link": "https://untappd.com/b/progeny-from-crook-to-cook/3022439",
+    "name": "Progeny: From Crook To Cook",
+    "rating": "4.3"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-ashburn-village/3791198",
+    "name": "Ashburn Village",
+    "rating": "4.3"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-mind-the-hop-double-dry-hopped/2554337",
+    "name": "Mind the Hop (Double Dry Hopped)",
+    "rating": "4.3"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-new-orleans/3450950",
+    "name": "New Orleans",
+    "rating": "4.3"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-slippy-yips/3530144",
+    "name": "Slippy Yips",
+    "rating": "4.3"
+  },
+  {
+    "link": "https://untappd.com/b/aslin-beer-company-black-friday-green/2955982",
+    "name": "Black Friday Green",
+    "rating": "4.29"
+  },
+  {
     "link": "https://untappd.com/b/fox-farm-brewery-avalonia-red/3784630",
     "name": "Avalonia: Red",
     "rating": "4.54"
