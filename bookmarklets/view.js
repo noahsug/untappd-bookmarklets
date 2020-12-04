@@ -67,15 +67,15 @@ javascript: (() => {
     return trie;
   }
 
-  function getTextNodes(root, result = []) {
-    if (root.nodeType === Node.TEXT_NODE) {
-      result.push(root);
-    } else {
-      root.childNodes.forEach((node) => {
-        getTextNodes(node, result);
-      });
+  function getTextNodes(root) {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, (node) => !!node.data);
+
+    const results = [];
+    while (walker.nextNode()) {
+      results.push(walker.currentNode);
     }
-    return result;
+
+    return results;
   }
 
   function getMatchingBeersFromWord(trie, words, i) {
@@ -131,8 +131,6 @@ javascript: (() => {
     textNodes.forEach((node) => {
       const text = node.data.trim();
       if (!text) return;
-
-      console.log(text);
 
       const beer = getMatchingBeer(trie, text);
 
