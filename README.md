@@ -5,7 +5,7 @@
 
 
 ## Installation
-1. Download and build the bookmarklets
+1. Build the bookmarklet code
 ```
 git clone git@github.com:noahsug/untappd-bookmarklets.git
 cd untappd-bookmarklets
@@ -14,12 +14,12 @@ yarn build
 ls bin # build bookmarklets live in bin/
 ```
 
-2. Create bookmarks
-  1. Open Bookmark Manager (`option + command + B`)
-  1. Options (triple dot in top right) -> Add new bookmark
-  1. Enter `scrape` for the name
-  1. Copy and paste the contents of `untappd-bookmarklets/bin/scrape.js` into the URL input
-  1. Repeat steps 2-4 for [view.js](bin/view.js)
+2. Create the bookmarklets
+   1. Open Bookmark Manager (`option + command + B`)
+   1. Options (triple dot in top right) -> Add new bookmark
+   1. Enter `scrape` for the name
+   1. Copy and paste the contents of `untappd-bookmarklets/bin/scrape.js` into the URL input
+   1. Repeat steps 2-4 for [view.js](bin/view.js)
 
 ## Usage
 
