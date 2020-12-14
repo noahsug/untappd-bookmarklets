@@ -1,5 +1,8 @@
 # Untappd Bookmarklets
-> View Untappd ratings for beers in your browser.
+> View Untappd ratings in your browser.
+
+![preview.png](https://github.com/noahsug/untappd-bookmarklets/blob/master/preview.png?raw=true)
+
 
 ## Installation
 1. Download and build the bookmarklets
@@ -20,14 +23,15 @@ ls bin # build bookmarklets live in bin/
 
 ## Usage
 
-#### View ratings in webpage
-
-1. Visit webpage of choice (e.g. https://treehousebrew.com/shop)
-1. Click on the `view` bookmarklet
-
 #### Add data from Untappd
 
 1. Visit an untappd page of choice (e.g. https://untappd.com/treehousebrewco/beer?sort=highest_rated)
 1. Click on the `scrape` bookmarklet to copy rating data to the clipboard
-1. In `untappd-bookmarklets/` run, `yarn add-data` (uses pbpaste to save data from the clipboard)
-1. Paste the contents of `bin/view.js` into the view bookmarklet (right-click -> `Edit...` -> paste into the URL input)
+1. In `untappd-bookmarklets/` run, `yarn add-data` (uses pbpaste to paste data from the clipboard)
+1. Paste the contents of `bin/view.js` into the view bookmarklet (right-click bookmark -> `Edit...` -> paste code into the URL)
+
+
+#### View ratings in webpage
+
+1. Visit webpage of choice (e.g. https://treehousebrew.com/shop)
+1. Click on the `view` bookmarklet
