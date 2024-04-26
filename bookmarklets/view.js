@@ -10,7 +10,8 @@ javascript: (() => {
       .replace('w/ ', 'with ')
       .replace(' & ', ' ')
       .replace(' + ', ' ')
-      .replace(' plus ', ' ');
+      .replace(' plus ', ' ')
+      .replace(':', '');
 
     // replace tabs and new lines with spaces
     text = text.replace(/\s/g, ' ');
@@ -127,6 +128,8 @@ javascript: (() => {
 
     const textNodes = getTextNodes(document.body);
 
+    const visited = new Set();
+
     console.log('Beers found:');
     textNodes.forEach((node) => {
       const text = node.data.trim();
@@ -134,7 +137,9 @@ javascript: (() => {
 
       const beer = getMatchingBeer(trie, text);
 
-      if (beer) {
+      if (beer && !visited.has(beer.fullName)) {
+        visited.add(beer.fullName);
+
         // trim trailing whitespace
         node.data = node.data.replace(/\s+$/, '');
 
